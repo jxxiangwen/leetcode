@@ -1,4 +1,4 @@
-package com.xiang.wen.string;
+package com.xiang.wen.easy;
 
 /**
  * 字符串压缩。利用字符重复出现的次数，编写一种方法，实现基本的字符串压缩功能。比如，字符串aabcccccaaa会变为a2b1c5a3。若“压缩”后的字符串没有变短，则返回原先的字符串。你可以假设字符串中只包含大小写英文字母（a至z）。
@@ -26,9 +26,9 @@ import org.junit.Test;
  * Mail: xiangwen.zou@ymm56.com
  * Time: 20-3-16 上午11:01
  */
-public class StringCompress {
+public class CompressString {
 
-    private String compressString1(String s) {
+    private String compressString(String s) {
         if (null == s || 0 == s.length()) {
             return s;
         }
@@ -55,11 +55,11 @@ public class StringCompress {
     }
 
     @Test
-    public void testCompressString1() {
-        Assert.assertEquals("a2b1c5a3", compressString1("aabcccccaaa"));
-        Assert.assertEquals("", compressString1(""));
-        Assert.assertEquals("abbccd", compressString1("abbccd"));
-        Assert.assertEquals("a", compressString1("a"));
-        Assert.assertEquals("bb", compressString1("bb"));
+    public void testCompressString() {
+        Assert.assertEquals("a2b1c5a3", compressString("aabcccccaaa"));
+        Assert.assertEquals("", compressString(""));
+        Assert.assertEquals("abbccd", compressString("abbccd"));
+        Assert.assertEquals("a", compressString("a"));
+        Assert.assertEquals("bb", compressString("bb"));
     }
 }
