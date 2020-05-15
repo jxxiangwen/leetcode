@@ -31,7 +31,7 @@ import org.junit.Test;
  * Mail: xiangwen.zou@ymm56.com
  * Time: 20-5-13 下午9:00
  */
-public class LengthOfLongestSubstring {
+public class LengthOfLongestSubstring_3 {
     public int lengthOfLongestSubstring(String s) {
         // 记录字符上一次出现的位置
         int[] last = new int[128];

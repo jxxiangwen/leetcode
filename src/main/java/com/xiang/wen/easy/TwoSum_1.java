@@ -28,7 +28,7 @@ import java.util.Map;
  * Mail: xiangwen.zou@ymm56.com
  * Time: 20-3-17 上午10:33
  */
-public class TwoSum {
+public class TwoSum_1 {
 
     /**
      * 执行用时 : 60 ms, 在所有 Java 提交中击败了 21.07% 的用户

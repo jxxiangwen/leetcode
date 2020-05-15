@@ -23,7 +23,7 @@ import org.junit.Test;
  * Mail: xiangwen.zou@ymm56.com
  * Time: 20-3-18 下午8:52
  */
-public class AddTwoNumbers {
+public class AddTwoNumbers_2 {
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int overflow = 0;
