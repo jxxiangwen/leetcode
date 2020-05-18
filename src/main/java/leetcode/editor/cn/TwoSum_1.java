@@ -1,4 +1,4 @@
-package com.xiang.wen.easy;
+package leetcode.editor.cn;
 
 import org.junit.Assert;
 import org.junit.Test;

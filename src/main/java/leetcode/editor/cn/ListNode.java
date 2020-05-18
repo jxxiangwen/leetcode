@@ -1,4 +1,4 @@
-package com.xiang.wen.common;
+package leetcode.editor.cn;
 
 /**
  * @author jxxiangwen
