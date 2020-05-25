@@ -48,13 +48,15 @@ public class FibonacciNumber_509 {
         if (1 >= N) {
             return N;
         }
-        int[] sum = new int[N + 1];
-        sum[0] = 0;
-        sum[1] = 1;
-        for (int i = 2; i < N + 1; i++) {
-            sum[i] = sum[i - 1] + sum[i - 2];
+        int sum = 0;
+        int first = 0;
+        int second = 1;
+        for (int i = 2; i <= N; i++) {
+            sum = first + second;
+            first = second;
+            second = sum;
         }
-        return sum[N];
+        return sum;
     }
 
     @Test
