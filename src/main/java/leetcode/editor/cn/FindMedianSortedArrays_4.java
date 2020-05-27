@@ -93,7 +93,7 @@ public class FindMedianSortedArrays_4 {
         if (i >= nums1.length) {
             return nums2[j + k - 1];
         }
-        if (j == nums2.length) {
+        if (j >= nums2.length) {
             return nums1[i + k - 1];
         }
         if (k == 1) {
