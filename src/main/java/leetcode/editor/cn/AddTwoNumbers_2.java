@@ -75,20 +75,6 @@ public class AddTwoNumbers_2 {
         return result;
     }
 
-    public boolean nodeEquals(ListNode first, ListNode second) {
-        if (first == second) {
-            return true;
-        }
-        while (null != first && null != second) {
-            if (first.val != second.val) {
-                return false;
-            }
-            first = first.next;
-            second = second.next;
-        }
-        return null == first && null == second;
-    }
-
     @Test
     public void testAddTwoNumbers() {
         // 输入：(2,4,3) + (5,6,4)
@@ -104,7 +90,7 @@ public class AddTwoNumbers_2 {
         ListNode result = new ListNode(7);
         result.next = new ListNode(0);
         result.next.next = new ListNode(8);
-        Assert.assertTrue(nodeEquals(result, addTwoNumbers(first, second)));
+        Assert.assertTrue(ListNode.listNodeEquals(result, addTwoNumbers(first, second)));
 
         // 输入：(5) + (5)
         // 输出：0,1
@@ -112,7 +98,7 @@ public class AddTwoNumbers_2 {
         second = new ListNode(5);
         result = new ListNode(0);
         result.next = new ListNode(1);
-        Assert.assertTrue(nodeEquals(result, addTwoNumbers(first, second)));
+        Assert.assertTrue(ListNode.listNodeEquals(result, addTwoNumbers(first, second)));
 
         // 输入：(0) + (7,3)
         // 输出：7,3
@@ -121,7 +107,7 @@ public class AddTwoNumbers_2 {
         second.next = new ListNode(3);
         result = new ListNode(7);
         result.next = new ListNode(3);
-        Assert.assertTrue(nodeEquals(result, addTwoNumbers(first, second)));
+        Assert.assertTrue(ListNode.listNodeEquals(result, addTwoNumbers(first, second)));
 
         // 输入：(9,8) + (1)
         // 输出：0,9
@@ -130,6 +116,6 @@ public class AddTwoNumbers_2 {
         second = new ListNode(1);
         result = new ListNode(0);
         result.next = new ListNode(9);
-        Assert.assertTrue(nodeEquals(result, addTwoNumbers(first, second)));
+        Assert.assertTrue(ListNode.listNodeEquals(result, addTwoNumbers(first, second)));
     }
 }

@@ -35,7 +35,7 @@ public class Permute_46 {
             currentResult.add(nums[i]);
             dfs(nums, result, currentResult, depth, currentDepth + 1, used);
             used.remove(nums[i]);
-            currentResult.remove((Object) nums[i]);
+            currentResult.remove(nums[i]);
         }
     }
 

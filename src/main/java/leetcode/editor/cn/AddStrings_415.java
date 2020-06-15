@@ -37,7 +37,7 @@ public class AddStrings_415 {
 
     @Test
     public void addStrings() {
-        Assert.assertEquals(addStrings("125", "456"), "581");
+        Assert.assertEquals(addStrings("125", "956"), "1081");
         Assert.assertEquals(addStrings("1", "9"), "10");
     }
 
