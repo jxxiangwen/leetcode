@@ -7,7 +7,7 @@ import java.util.*;
 
 /**
  * @author jxxiangwen
- * Mail: xiangwen.zou@ymm56.com
+ *
  * Time: 20-5-28 下午4:43
  */
 public class Permute_46 {

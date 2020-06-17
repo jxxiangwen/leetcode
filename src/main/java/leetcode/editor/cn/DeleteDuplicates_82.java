@@ -7,7 +7,7 @@ import org.junit.Test;
  * 给定一个排序链表，删除所有含有重复数字的节点，只保留原始链表中 没有重复出现 的数字。
  *
  * @author jxxiangwen
- * Mail: xiangwen.zou@ymm56.com
+ *
  * Time: 20-6-11 下午8:50
  */
 public class DeleteDuplicates_82 {

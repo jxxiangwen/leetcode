@@ -5,7 +5,7 @@ import org.junit.Test;
 
 /**
  * @author jxxiangwen
- * Mail: xiangwen.zou@ymm56.com
+ *
  * Time: 20-5-25 下午4:48
  */
 public class IsPalindrome_9 {

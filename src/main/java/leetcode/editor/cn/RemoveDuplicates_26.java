@@ -5,7 +5,7 @@ import org.junit.Test;
 
 /**
  * @author jxxiangwen
- * Mail: xiangwen.zou@ymm56.com
+ *
  * Time: 20-6-11 下午8:39
  */
 public class RemoveDuplicates_26 {

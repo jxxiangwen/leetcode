@@ -5,7 +5,7 @@ import org.junit.Test;
 
 /**
  * @author jxxiangwen
- * Mail: xiangwen.zou@ymm56.com
+ *
  * Time: 20-6-1 下午7:04
  */
 public class SortColors_75 {

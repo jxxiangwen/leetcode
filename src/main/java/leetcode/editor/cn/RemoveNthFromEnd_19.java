@@ -2,7 +2,7 @@ package leetcode.editor.cn;
 
 /**
  * @author jxxiangwen
- * Mail: xiangwen.zou@ymm56.com
+ *
  * Time: 20-5-27 下午4:51
  */
 public class RemoveNthFromEnd_19 {

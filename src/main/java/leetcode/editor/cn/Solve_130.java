@@ -8,7 +8,7 @@ import java.util.Queue;
 
 /**
  * @author jxxiangwen
- * Mail: xiangwen.zou@ymm56.com
+ *
  * Time: 20-5-20 下午7:53
  */
 public class Solve_130 {

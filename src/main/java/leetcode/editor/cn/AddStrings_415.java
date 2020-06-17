@@ -5,7 +5,7 @@ import org.junit.Test;
 
 /**
  * @author jxxiangwen
- * Mail: xiangwen.zou@ymm56.com
+ *
  * Time: 20-5-15 下午2:54
  */
 public class AddStrings_415 {

@@ -5,7 +5,7 @@ import org.junit.Test;
 
 /**
  * @author jxxiangwen
- * Mail: xiangwen.zou@ymm56.com
+ *
  * Time: 20-5-14 上午10:04
  * <p>
  * 给定两个大小为 m 和 n 的正序（从小到大）数组 nums1 和 nums2。

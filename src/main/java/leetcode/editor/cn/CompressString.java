@@ -21,7 +21,7 @@ import org.junit.Test;
 
 /**
  * @author jxxiangwen
- * Mail: xiangwen.zou@ymm56.com
+ *
  * Time: 20-3-16 上午11:01
  */
 public class CompressString {

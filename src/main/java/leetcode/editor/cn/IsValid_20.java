@@ -7,7 +7,7 @@ import java.util.*;
 
 /**
  * @author jxxiangwen
- * Mail: xiangwen.zou@ymm56.com
+ *
  * Time: 20-5-27 下午5:03
  */
 public class IsValid_20 {
