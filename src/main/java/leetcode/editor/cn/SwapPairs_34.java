@@ -3,6 +3,8 @@ package leetcode.editor.cn;
 import org.junit.Assert;
 import org.junit.Test;
 
+import java.util.Date;
+
 /**
  * @author jxxiangwen
  * Time: 20-6-30 下午2:10
@@ -29,6 +31,7 @@ public class SwapPairs_34 {
 
     @Test
     public void testSwapPairs() {
+        System.out.println(new Date(System.currentTimeMillis()));
         ListNode origin = ListNode.createListNode(new int[]{1, 2, 3});
         ListNode swap = ListNode.createListNode(new int[]{2, 1, 3});
         ListNode result = swapPairs(origin);
